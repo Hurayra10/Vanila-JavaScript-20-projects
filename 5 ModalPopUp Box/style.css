@@ -1,0 +1,42 @@
+.modal{
+    height: 300px;
+    width : 400px;
+    background-color: white; 
+    color : black;
+    position: fixed;
+    margin-left:370PX;
+    margin-top: 70PX;
+    box-shadow: 5PX 10PX 15PX black;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    pointer-events: none;
+    
+   
+}
+.show{
+    opacity: 1;
+    pointer-events: auto;
+}
+.modal-title{
+    text-align: center;
+}
+.modal-footer{
+    text-align: center;
+}
+.close, .open{
+    color: white;
+    background-color: tomato;
+    box-shadow: 2px 3px 10px black;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.modal-open{
+    text-align: center;
+}
+.open{
+    margin-top: 350px;
+}
+
+

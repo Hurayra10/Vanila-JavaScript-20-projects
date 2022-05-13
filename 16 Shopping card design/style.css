@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: wheat;
+}
+
+.container{
+    height: 550px;
+    width: 750px;
+    background-color: white;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 4px 5px 15px rgb(142, 128, 128);
+}
+.fixed{
+    height: 550px;
+    width: 400px;
+    background-color: white;
+    box-sizing: border-box;
+    float: left;
+    box-shadow: 4px 5px 15px rgb(142, 128, 128);
+}
+
+.h1{
+    color: gray;
+    text-align: center;
+    margin-bottom: 20px;
+  
+}
+
+.card-image{
+    width: 40%;
+    box-shadow: 2px 3px 10px rgb(142, 128, 128);
+    padding: 5px;
+    text-align: center;
+    float: left;
+}
+    
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 10px rgb(142, 128, 128);
+}
+
+.card-title{
+    float: left;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+h3{
+    padding: 10px;
+    font-size: larger;
+    color: rgb(51, 89, 187);
+}
+.prize{
+    color: red;
+}
+.icon{
+    color: black;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 5px;
+    transition: background 0.5s;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.icon:hover{
+    background-color: tomato;
+    color: white;
+    border-radius: 50%;
+
+}
+.button{
+    padding: 7px;
+    color: white;
+    background-color: orangered;
+    width: 50px;
+}
+
+.item{
+    font-size: 1.3rem;
+}
+.clear{
+    clear: both;
+}
+
+.style-hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(101, 82, 82);
+    border-top: none;
+    border-right: none;
+    border-left: none ;
+}
+
+.total{
+    text-align: center;
+    color: gray;
+}
+
+.cupon{
+    text-align: center;
+}
+
+.code{
+    text-align: center;
+    color: tomato;
+}
+
+.cuponInput{
+    width: 40%;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.apply{
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.lasth2{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

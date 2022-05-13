@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Deposit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 1st page is started here -->
+
+    <div id="rootForm">
+        <div class="form">
+            <h1 id="title">Login ABU Bank</h1>
+                <div class="input_field">
+                    <input type="text" class="input style" name="" id="accNo" placeholder="Enter Your Account Number"> <br><br>
+                    <input type="password" class="input style" name="" id="pass" placeholder="Enter Your Password"> <br><br>
+                    <input type="submit" class="input submitBtn" id="subBtn">
+                </div>
+
+        </div>
+    </div>
+
+
+    
+    <!--------------- 2nd page is started here -------------------------------->
+
+    <div class="mainBal" id="mainBal">
+        <h2>Banalce <span id="totalBalance"> 1200</span></h2>
+    </div>
+
+
+    <!-- ----------------------diposit and withdraw ------------------------->
+    <div class="dipoAndwithdraw" id="dipoAndwithdraw">
+        <div class="diposit">
+            <h2>Deposit : <span id="totalDeposit"> 00</span></h2>
+            <input type="text" id="depositInput" class="input style" placeholder="Diposit your amount"> <br><br>
+            <input type="button" id="depositBtn" class="input submitBtn" value="Add">
+        </div>
+
+
+
+        <div class="withdraw">
+            <h2>Withdraw : <span id="totalWithdraw"> 00</span></h2>
+            <input type="text" class="input style" id="withdrawInput" placeholder="Withdraw your amount"> <br><br>
+            <input type="button" class="input submitBtn" id="withdrawBtn" value="Withdraw">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+.main{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.main input{
+    width: 20%;
+    padding: 8px;
+}
+button{
+    padding: 9px 20px;
+    background-color: red;
+    color: white;
+
+}
+.todo-item-div{
+    background-color: wheat;
+    width: 400PX;
+    height: 400PX;
+    padding: 10PX;
+    position: absolute;
+    margin: 0 auto;
+    box-shadow: 4px 5px 10px black;
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    position: relative;
+}
+
+li{
+    text-align: justify;
+    padding:7px;
+    font-weight: blod;
+    font-size: 1.3rem;
+  
+
+
+}
+
+
+
+

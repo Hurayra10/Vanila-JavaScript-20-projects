@@ -1,0 +1,23 @@
+.arrow{
+    font-size: 1.5rem;
+    background-color: rgb(238, 27, 27);
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 95%;
+    margin-top: 40%;
+    position: fixed;
+    display: none;
+    
+}
+.arrow.arrowClass{
+    display: block;
+}
+
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}

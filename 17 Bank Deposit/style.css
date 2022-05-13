@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(235, 130, 205);
+}
+
+
+.form{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    margin-top: 10%;
+    margin-left:35%;
+    box-sizing: border-box;
+    box-shadow: 10px 15px 15px black;
+    border-radius: 10px;
+   
+}
+
+#title{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(99, 141, 178);
+}
+
+.input_field{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.style{
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px black;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    background-color: aliceblue;
+}
+
+.submitBtn{
+    background-color: tomato;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5%;
+    font-weight: 300;
+    box-shadow: 2px 4px 2px rgb(65, 52, 52);
+}
+
+/* 2nd pages code is starting here */
+
+.mainBal{
+    height: 100px;
+    width: 250px;
+    background-color: white;
+    color: black;
+    margin-top: 5%;
+    box-sizing: border-box;
+    margin-right: 30%;
+    margin-bottom: 8%;
+    margin-left:40%;
+    box-shadow: 10px 15px 15px black;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/* deposit */
+
+.diposit{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    box-shadow: 10px 15px 15px black;
+    border-radius: 10px;
+    margin-left:10%;
+    text-align: center;
+    float: left;
+}
+
+.withdraw{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    box-shadow: 10px 15px 15px black;
+    border-radius: 10px;
+    margin-right:10%;
+    text-align: center;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
